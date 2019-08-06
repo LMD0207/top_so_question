@@ -40,7 +40,7 @@ def main():
         print("Top {} most voted questions:\n".format(sys.argv[1]))
         print(solve(sys.argv[1], sys.argv[2]))
     else:
-        print("Please follow the format as Python3 {} N L\n\tN: Top vote question\n\tL: Label you want search".format(sys.argv[0]))  # NOQA
+        print("Please follow the format as Python3 {} N L\n\tN: Top-voted question\n\tL: Label you want to search".format(sys.argv[0]))  # NOQA
         print("Example: python3 {} 3 machine-learning".format(sys.argv[0]))
 
 
