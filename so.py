@@ -32,6 +32,10 @@ def solve(N, L):
         result.append("Question #{}:\n\tTitle: {}\n\tVote: {}\n\tLink: {}\n\n".format(
             n, title, score, url))
     result = "".join(result)
+    
+    if result == '':
+        print("No result found! Try another topic Label!")
+        
     return result
 
 
