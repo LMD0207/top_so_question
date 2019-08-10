@@ -4,4 +4,5 @@ Link API: https://api.stackexchange.com/docs
 
 Follows the format:
   > python3 so.py N LABEL
+  
 Example: python3 so.py 3 machine-learning
